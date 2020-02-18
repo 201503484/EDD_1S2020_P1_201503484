@@ -1,5 +1,4 @@
 #include "Lista_Doble.h"
-
 Lista_Doble::Lista_Doble()
 {
     this->primero=NULL;
@@ -49,7 +48,7 @@ void Lista_Doble::imprimir(){
         Nodo * aux = this->primero;
 
         while(aux != NULL){
-             std::cout<< aux->cod << std::endl;
+             std::cout<<aux->cod << std::endl;
              aux = aux->siguiente;
         }
     }

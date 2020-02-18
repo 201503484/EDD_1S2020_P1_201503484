@@ -1,6 +1,6 @@
 #include <Nodo.h>
 
-Nodo::Nodo(int c)
+Nodo::Nodo(char* c)
 {
     this->cod = c;
     this->anterior = NULL;
@@ -17,7 +17,7 @@ void Nodo ::setAnterior(Nodo * ant)
 {
     this->anterior = ant;
 }
-void Nodo ::setCaracter(int car1)
+void Nodo ::setCaracter(char* car1)
 {
     this->cod = car1;
 }
@@ -29,4 +29,7 @@ Nodo * Nodo :: getSiguiente()
 Nodo * Nodo ::getAnterior()
 {
     return this->anterior;
+}
+char* Nodo:: getCaracter(){
+    return this->cod;
 }

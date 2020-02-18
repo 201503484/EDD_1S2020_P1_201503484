@@ -5,24 +5,25 @@
 class Nodo
 {
  public:
-        int cod;
+        char* cod;
         Nodo * siguiente;
         Nodo * anterior;
 
         //Metodos//
-        Nodo(int c);
+        Nodo(char* c);
         void setSiguiente(Nodo * siguiente);
         void setAnterior(Nodo * anterior);
-        void setCaracter(int cod);
+        void setCaracter(char* cod);
 
         Nodo * getSiguiente();
         Nodo * getAnterior();
-      //  int getCaracter();
+        char* getCaracter();
 
 
     protected:
 
     private:
 };
+
 
 #endif // NODO_H

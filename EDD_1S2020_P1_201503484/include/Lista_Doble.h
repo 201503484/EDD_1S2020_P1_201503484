@@ -6,14 +6,14 @@ class Lista_Doble
 {
     public:
         Lista_Doble();
-         Nodo * primero;
+        Nodo * primero;
         Nodo * ultimo;
 
         //metodos//
         void insertar(Nodo * nuevo);
         Nodo * eliminar(Nodo * nodito);
         Nodo * buscar(Nodo * buscarNodito);
-        void reemplazar(int remplazarNodito);
+        void reemplazar(char* remplazarNodito);
         void imprimir();
 
         bool estaVacia();
@@ -22,5 +22,6 @@ class Lista_Doble
 
     private:
 };
+
 
 #endif // LISTA_DOBLE_H

@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1581989899 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\nodo.cpp
+	<Nodo.h>
+
+1581989899 c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\include\nodo.h
+	"iostream"
+
+1581989899 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\pilaz.cpp
+	"PilaZ.h"
+	<iostream>
+	<math.h>
+	<stdio.h>
+
+1581989992 c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\include\pilaz.h
+	<iostream>
+	<Nodo.h>
+
+1581989899 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\lista_doble.cpp
+	"Lista_Doble.h"
+
+1581989899 c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\include\lista_doble.h
+	"Nodo.h"
+
+1581989899 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\main.cpp
+	<iostream>
+	<math.h>
+	<stdio.h>
+	<Nodo.h>
+	<PilaZ.h>
+	<Lista_Doble.h>
+	<stdlib.h>
+
+1581989899 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\lista_circular.cpp
+	"Lista_Circular.h"
+	<iostream>
+	<math.h>
+	<stdio.h>
+
+1581989937 c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\include\lista_circular.h
+	<Nodo.h>
+	<iostream>
+

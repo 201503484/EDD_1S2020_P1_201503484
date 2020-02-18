@@ -12,7 +12,7 @@ class PilaZ
         PilaZ();
 
         bool estaVacia();
-
+        void imprimir();
     protected:
 
     private:

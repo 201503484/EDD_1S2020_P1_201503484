@@ -4,10 +4,39 @@
 #include <Nodo.h>
 #include <PilaZ.h>
 #include <Lista_Doble.h>
+#include <stdlib.h>
 using namespace std;
+bool estado = false;
+void buscar_y_reemplazar(string&Frase, string buscar, string reemplazar)
+{
+    int pos = Frase.find(buscar);
+
+        while  (pos != -1){
+        Frase.replace(pos,buscar.size(),reemplazar);
+        pos = Frase.find(buscar, pos + reemplazar.size());
+        estado = true;
+        }
+
+
+}
+
+char * cambio(string&frase,int tamano)
+{
+    if(!(frase.empty()) && tamano!=0)
+    {
+        char * arrayChar = new char[tamano];
+        for(int i = 0; i<tamano; i++)
+        {
+            arrayChar[i]= frase[i];
+        }
+        return arrayChar;
+    }
+
+}
 
 int main()
 {
+
 
         printf( "\n   UNIVERSIDAD DE SAN CARLOS DE GUATEMALA");
         printf( "\n   FACULTAD DE INGENIERIA");
@@ -18,20 +47,8 @@ int main()
         printf( "\n");
         printf( "\n");
         int n, opcion;
+        string aux, frasecompleta,frase,p1,p2;
 
-        Nodo * prueba = new Nodo(2);
-        prueba->setCaracter(5);
-        Lista_Doble * lista = new Lista_Doble();
-        lista->insertar(new Nodo(8));
-        lista->insertar(new Nodo(80));
-        lista->insertar(new Nodo(20));
-
-
-        printf( "\n   el dato ingresado %d",prueba->cod);
-        printf( "\n   el dato ingresado lista /////// %d",lista->primero->cod);
-        printf( "\n   segundo dato /////// %d",lista->primero->siguiente->cod);
-        printf( "\n   ");
-        lista->imprimir();
     do
     {
 
@@ -46,15 +63,18 @@ int main()
             scanf( "%d", &opcion );
 
         } while ( opcion < 1 || opcion > 4 );
-        /* La opción sólo puede ser 1, 2, 3 ó 4 */
-
-        /* Inicio del anidamiento */
 
         switch ( opcion )
         {
-            case 1: printf( "\n   Introduzca un n%cmero entero: ", 163 );
-                    scanf( "%d", &n );
-                    printf( "\n   El doble de %d es %d\n\n", n, n * 2 );
+            case 1: system("cls");
+                    printf("-------------------------------------------EDITOR DE TEXTO -----------------------------------------------\n");
+                    printf("----------------------------------------------------------------------------------------------------------\n");
+                    printf("       ^w(Buscar y reemplazar)                 ^c(Reportes)                                    ^s(Guardar)\n");
+                    printf("----------------------------------------------------------------------------------------------------------\n");
+                    printf("\n");
+                    getline(cin, aux);
+                    printf(" ");
+                    getline(cin,frasecompleta);
                     break;
 
             case 2: printf( "\n   Introduzca un n%cmero entero: ", 163 );

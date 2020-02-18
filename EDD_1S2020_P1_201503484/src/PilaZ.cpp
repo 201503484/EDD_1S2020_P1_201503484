@@ -1,5 +1,7 @@
 #include "PilaZ.h"
-
+#include <iostream>
+#include <math.h>
+#include <stdio.h>
 PilaZ::PilaZ()
 {
      this->TOP= NULL;
@@ -33,4 +35,16 @@ PilaZ::PilaZ()
        Nodo * aux = this->TOP;
         this->TOP = this->TOP->getSiguiente();
         aux->setSiguiente(NULL);    }
+
+}
+void PilaZ::imprimir(){
+    if(this->estaVacia()){
+        std::cout<< "la pila esta vacia"<< std::endl;
+    }else{
+        Nodo * aux = this->TOP;
+        while(aux != NULL){
+             std::cout<<aux->cod<<std::endl;
+             aux = aux->siguiente;
+        }
+    }
 }
