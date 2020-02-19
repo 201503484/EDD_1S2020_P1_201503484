@@ -42,6 +42,7 @@ char * cambio(string&frase,int tamano)
 }
 int ingresarTexto(){
 
+
     printf("");
     getline(cin,frasecompleta);
     string frase = "";
@@ -73,6 +74,7 @@ int ingresarTexto(){
     }
 
 }
+
 
 int main()
 {
