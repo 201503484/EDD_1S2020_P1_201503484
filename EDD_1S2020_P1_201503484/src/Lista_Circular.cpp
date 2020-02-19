@@ -43,7 +43,7 @@ void Lista_Circular:: imprimir()
         bool seguir = true;
         while (seguir)
         {
-           std::cout<<aux->cod << std::endl;
+           std::cout<<aux->cod << "___";
             if(aux==ultimo)
             {
                 seguir = false;
