@@ -10,7 +10,7 @@ class Lista_Doble
         Nodo * ultimo;
 
         //metodos//
-        void insertar(Nodo * nuevo);
+        void insertar(char * nuevo);
         Nodo * eliminar(Nodo * nodito);
         Nodo * buscar(Nodo * buscarNodito);
         void reemplazar(char* remplazarNodito);

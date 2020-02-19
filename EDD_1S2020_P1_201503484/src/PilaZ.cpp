@@ -32,7 +32,7 @@ PilaZ::PilaZ()
     {
         return NULL;
     }else{
-       Nodo * aux = this->TOP;
+        Nodo * aux = this->TOP;
         this->TOP = this->TOP->getSiguiente();
         aux->setSiguiente(NULL);    }
 
@@ -43,7 +43,7 @@ void PilaZ::imprimir(){
     }else{
         Nodo * aux = this->TOP;
         while(aux != NULL){
-             std::cout<<aux->cod<<std::endl;
+             std::cout<<aux->cod<<"..;";
              aux = aux->siguiente;
         }
     }
