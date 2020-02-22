@@ -10,11 +10,14 @@ class Lista_Doble
         Nodo * ultimo;
 
         //metodos//
-        void insertar(char * nuevo);
+        void insertarInicio(char * nuevo);
+        void ingresarFinal(char*elemento)
         Nodo * eliminar(Nodo * nodito);
         Nodo * buscar(Nodo * buscarNodito);
         void reemplazar(char* remplazarNodito);
         void imprimir();
+        void borrarPrimerElemento();
+        void borrarUltimoElemento();
 
         bool estaVacia();
 

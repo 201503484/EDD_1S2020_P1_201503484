@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1581989899 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\nodo.cpp
+1582083900 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\nodo.cpp
 	<Nodo.h>
 
-1581989899 c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\include\nodo.h
+1582083900 c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\include\nodo.h
 	"iostream"
 
-1581995926 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\pilaz.cpp
+1582082589 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\pilaz.cpp
 	"PilaZ.h"
 	<iostream>
 	<math.h>
@@ -15,15 +15,15 @@
 	<iostream>
 	<Nodo.h>
 
-1582049690 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\lista_doble.cpp
+1582083715 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\lista_doble.cpp
 	"Lista_Doble.h"
 	<Nodo.h>
 	<iostream>
 
-1582047841 c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\include\lista_doble.h
+1582082589 c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\include\lista_doble.h
 	"Nodo.h"
 
-1582048047 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\main.cpp
+1582086345 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\main.cpp
 	<iostream>
 	<math.h>
 	<stdio.h>
@@ -34,7 +34,7 @@
 	<bits/stdc++.h>
 	<Lista_Circular.h>
 
-1582046171 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\lista_circular.cpp
+1582082589 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\lista_circular.cpp
 	"Lista_Circular.h"
 	<iostream>
 	<math.h>

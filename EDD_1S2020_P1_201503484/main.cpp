@@ -62,8 +62,7 @@ int ingresarTexto(){
             lista->insertar(arregloCaracteres);
             pilaz->push(new Nodo(arregloCaracteres));
             circular->ingresarInicio(arregloCaracteres);
-
-            lista->imprimir();
+            circular->imprimir();
          //   pilaz->imprimir();
 
            // circular->imprimir();

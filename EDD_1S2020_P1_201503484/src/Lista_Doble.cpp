@@ -9,7 +9,7 @@ Lista_Doble::Lista_Doble()
 
 }
 
-void Lista_Doble ::insertar(char* nuevo)
+void Lista_Doble ::insertarInicio(char* nuevo)
 {
     Nodo * temp = new Nodo(nuevo);
     if (estaVacia() == true)
@@ -46,6 +46,59 @@ void Lista_Doble ::insertar(char* nuevo)
 bool Lista_Doble::estaVacia()
 {
     return (primero==NULL);
+}
+
+void Lista_Doble ::borrarPrimerElemento()
+{
+    if(estaVacia()==true)
+    {
+        std::cout<<"No se puede eliminar. Lista vacia." <<std::endl;
+    }
+    else{
+        if (primero==ultimo)
+        {
+            primero=ultimo=NULL;
+        }else{
+            Nodo *temp = primero;
+            primero = primero->siguiente;
+            primero->anterior=NULL;
+            delete temp;
+            std::cout <<"Elemento eliminado."<<std::endl;
+        }
+    }
+
+}
+
+void Lista_Doble:: borrarUltimoElemento()
+{
+    if(estaVacia()==true){
+        std::cout<<"No se puede eliminar. Lista vacia."<<std::endl;
+
+    }else{
+        if(primero==ultimo){
+            primero=ultimo-NULL;
+        }else{
+            Nodo *temp = ultimo;
+            ultimo = ultimo->anterior;
+            ultimo->siguiente= NULL;
+            delete temp;
+            std::cout <<"Elemento eliminado."<<std::endl;
+        }
+    }
+}
+
+void Lista_Doble::ingresarFinal(char*elemento)
+{
+    Nodo *temp = new Nodo(elemento);
+    if (estaVacia()==true)
+    {
+        primero=ultimo=temp;
+    }else{
+        ultimo->siguiente=temp;
+        temp->anterior=ultimo;
+        ultimo=temp;
+    }
+
 }
 
 void Lista_Doble::imprimir()
