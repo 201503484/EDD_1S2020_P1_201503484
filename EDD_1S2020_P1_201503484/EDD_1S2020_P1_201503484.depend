@@ -5,7 +5,11 @@
 1582083900 c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\include\nodo.h
 	"iostream"
 
+<<<<<<< HEAD
 1582082589 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\pilaz.cpp
+=======
+1581989899 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\pilaz.cpp
+>>>>>>> parent of 50ab151... Merge pull request #1 from andreadsaenz/Pruebita
 	"PilaZ.h"
 	<iostream>
 	<math.h>
@@ -15,15 +19,24 @@
 	<iostream>
 	<Nodo.h>
 
+<<<<<<< HEAD
 1582383138 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\lista_doble.cpp
+=======
+1581989899 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\lista_doble.cpp
+>>>>>>> parent of 50ab151... Merge pull request #1 from andreadsaenz/Pruebita
 	"Lista_Doble.h"
-	<Nodo.h>
-	<iostream>
 
+<<<<<<< HEAD
 1582384595 c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\include\lista_doble.h
 	"Nodo.h"
 
 1582384614 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\main.cpp
+=======
+1581989899 c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\include\lista_doble.h
+	"Nodo.h"
+
+1581989899 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\main.cpp
+>>>>>>> parent of 50ab151... Merge pull request #1 from andreadsaenz/Pruebita
 	<iostream>
 	<math.h>
 	<stdio.h>
@@ -31,10 +44,12 @@
 	<PilaZ.h>
 	<Lista_Doble.h>
 	<stdlib.h>
-	<bits/stdc++.h>
-	<Lista_Circular.h>
 
+<<<<<<< HEAD
 1582082589 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\lista_circular.cpp
+=======
+1581989899 source:c:\users\mads3\desktop\1er semestre 2020\estructuras de datos\practica1\github\edd_1s2020_p1_201503484\edd_1s2020_p1_201503484\src\lista_circular.cpp
+>>>>>>> parent of 50ab151... Merge pull request #1 from andreadsaenz/Pruebita
 	"Lista_Circular.h"
 	<iostream>
 	<math.h>

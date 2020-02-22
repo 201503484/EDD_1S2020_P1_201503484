@@ -10,8 +10,12 @@ class Lista_Doble
         Nodo * ultimo;
 
         //metodos//
+<<<<<<< HEAD
         void insertarInicio(char * nuevo);
         void ingresarFinal(char*elemento);
+=======
+        void insertar(Nodo * nuevo);
+>>>>>>> parent of 50ab151... Merge pull request #1 from andreadsaenz/Pruebita
         Nodo * eliminar(Nodo * nodito);
         Nodo * buscar(Nodo * buscarNodito);
         void reemplazar(char* remplazarNodito);

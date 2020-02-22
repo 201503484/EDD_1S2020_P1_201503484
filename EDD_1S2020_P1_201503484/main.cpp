@@ -5,16 +5,14 @@
 #include <PilaZ.h>
 #include <Lista_Doble.h>
 #include <stdlib.h>
+<<<<<<< HEAD
 #include <bits/stdc++.h>
 #include <Lista_Circular.h>
 #include <ListaSimple.h>
+=======
+>>>>>>> parent of 50ab151... Merge pull request #1 from andreadsaenz/Pruebita
 using namespace std;
 bool estado = false;
-Lista_Doble * lista = new Lista_Doble();
-PilaZ * pilaz = new PilaZ();
-Lista_Circular * circular = new Lista_Circular();
-
-string frasecompleta;
 void buscar_y_reemplazar(string&Frase, string buscar, string reemplazar)
 {
     int pos = Frase.find(buscar);
@@ -41,6 +39,7 @@ char * cambio(string&frase,int tamano)
     }
 
 }
+<<<<<<< HEAD
 int ingresarTexto(){
 
     printf("");
@@ -74,9 +73,13 @@ int ingresarTexto(){
     }
 
 }
+=======
+>>>>>>> parent of 50ab151... Merge pull request #1 from andreadsaenz/Pruebita
 
 int main()
 {
+
+
         printf( "\n   UNIVERSIDAD DE SAN CARLOS DE GUATEMALA");
         printf( "\n   FACULTAD DE INGENIERIA");
         printf( "\n   ESTRUCTURAS DE DATOS");
@@ -86,9 +89,7 @@ int main()
         printf( "\n");
         printf( "\n");
         int n, opcion;
-        string aux,frase,p1,p2;
-
-        int number = 0;
+        string aux, frasecompleta,frase,p1,p2;
 
     do
     {
@@ -107,9 +108,7 @@ int main()
 
         switch ( opcion )
         {
-            case 1:
-                    //Menu de Crear Archivo
-                    system("cls");
+            case 1: system("cls");
                     printf("-------------------------------------------EDITOR DE TEXTO -----------------------------------------------\n");
                     printf("----------------------------------------------------------------------------------------------------------\n");
                     printf("       ^w(Buscar y reemplazar)                 ^c(Reportes)                                    ^s(Guardar)\n");
@@ -117,15 +116,17 @@ int main()
                     printf("\n");
                     getline(cin, aux);
                     printf(" ");
-                    ingresarTexto();
+                    getline(cin,frasecompleta);
                     break;
 
-            case 2:
-
+            case 2: printf( "\n   Introduzca un n%cmero entero: ", 163 );
+                    scanf( "%d", &n );
+                    printf( "\n   La mitad de %d es %f\n\n", n, ( float ) n / 2 );
                     break;
 
-            case 3:
-                    break;
+            case 3: printf( "\n   Introduzca un n%cmero entero: ", 163 );
+                    scanf( "%d", &n );
+                    printf( "\n   El cuadrado de %d es %d\n\n", n, ( int ) pow( n, 2 ) );
          }
 
          /* Fin del anidamiento */

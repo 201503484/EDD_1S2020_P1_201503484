@@ -1,7 +1,4 @@
 #include "Lista_Doble.h"
-#include <Nodo.h>
-#include <iostream>
-
 Lista_Doble::Lista_Doble()
 {
     this->primero=NULL;
@@ -9,45 +6,46 @@ Lista_Doble::Lista_Doble()
 
 }
 
+<<<<<<< HEAD
 void Lista_Doble ::insertarInicio(char* nuevo)
+=======
+void Lista_Doble ::insertar(Nodo * nuevo)
+>>>>>>> parent of 50ab151... Merge pull request #1 from andreadsaenz/Pruebita
 {
-    Nodo * temp = new Nodo(nuevo);
-    if (estaVacia() == true)
-    {
-        primero=ultimo=temp;
+    if(this->estaVacia()){
+        this->primero = nuevo;
+        this->ultimo = nuevo;
     }else{
-    temp->siguiente=primero;
-    primero->anterior=temp;
-    primero=temp;
+        if (this->primero == this->ultimo){
+            this->ultimo->setSiguiente(nuevo);
+            nuevo ->setAnterior(this->ultimo);
+            this->ultimo = nuevo;
+        }else{
+            //RECORRER
+            Nodo * pivote = this -> primero;
+            do {
+                pivote = pivote->siguiente;
+            }while(pivote->siguiente != NULL);
+            pivote->setSiguiente(nuevo);
+            nuevo->setAnterior(pivote);
+            this->ultimo = nuevo;
+
+        }
+
     }
-//    if(this->estaVacia()){
-//        this->primero = nuevo;
-//        this->ultimo = nuevo;
-//    }else{
-//        if (this->primero == this->ultimo){
-//            this->ultimo->setSiguiente(nuevo);
-//            nuevo ->setAnterior(this->ultimo);
-//            this->ultimo = nuevo;
-//        }else{
-//            //RECORRER
-//            Nodo * pivote = this -> primero;
-//            do {
-//                pivote = pivote->siguiente;
-//            }while(pivote->siguiente != NULL);
-//            pivote->setSiguiente(nuevo);
-//            nuevo->setAnterior(pivote);
-//            this->ultimo = nuevo;
-//
-//        }
-//
-//    }
 }
 
 bool Lista_Doble::estaVacia()
 {
-    return (primero==NULL);
+    if (this->primero == NULL){
+        return true;
+    }else {
+        return false;
+    }
+    return true;
 }
 
+<<<<<<< HEAD
 void Lista_Doble ::borrarPrimerElemento()
 {
     if(estaVacia()==true)
@@ -108,30 +106,17 @@ void Lista_Doble::imprimir()
 
         std::cout<<"No hay elementos en la lista"<<std::endl;
 
+=======
+void Lista_Doble::imprimir(){
+    if(this->estaVacia()){
+        std::cout<< "la lista esta vacia"<< std::endl;
+>>>>>>> parent of 50ab151... Merge pull request #1 from andreadsaenz/Pruebita
     }else{
-        Nodo *aux = ultimo;
-        int i=1;
-        bool seguir = true;
-        std::cout << "Los datos en la lista son los siguientes" <<std::endl;
+        Nodo * aux = this->primero;
 
-        while(seguir){
-               std::cout<<i<<aux->getCaracter()<<std::endl;
-            if(aux==primero){
-                seguir = false;
-            }
-            aux= aux->anterior;
-            i++;
+        while(aux != NULL){
+             std::cout<<aux->cod << std::endl;
+             aux = aux->siguiente;
         }
     }
 }
-//    if(this->estaVacia()){
-//        std::cout<< "la lista esta vacia"<< ";";
-//    }else{
-//        Nodo * aux = this->primero;
-//
-//        while(aux != NULL){
-//             std::cout<<aux->cod<<";";
-//             aux = aux->siguiente;
-//        }
-//    }
-
