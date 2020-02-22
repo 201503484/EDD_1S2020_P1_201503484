@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <bits/stdc++.h>
 #include <Lista_Circular.h>
+#include <ListaSimple.h>
 using namespace std;
 bool estado = false;
 Lista_Doble * lista = new Lista_Doble();
@@ -59,10 +60,11 @@ int ingresarTexto(){
         for(int j=0; j<tamano; j++)
         {
             arregloCaracteres[j];
-            lista->insertar(arregloCaracteres);
+            lista->insertarInicio(arregloCaracteres);
             pilaz->push(new Nodo(arregloCaracteres));
             circular->ingresarInicio(arregloCaracteres);
-            circular->imprimir();
+            lista->imprimir();
+
          //   pilaz->imprimir();
 
            // circular->imprimir();

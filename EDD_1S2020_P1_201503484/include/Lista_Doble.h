@@ -11,7 +11,7 @@ class Lista_Doble
 
         //metodos//
         void insertarInicio(char * nuevo);
-        void ingresarFinal(char*elemento)
+        void ingresarFinal(char*elemento);
         Nodo * eliminar(Nodo * nodito);
         Nodo * buscar(Nodo * buscarNodito);
         void reemplazar(char* remplazarNodito);

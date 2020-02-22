@@ -34,11 +34,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/ListaSimple.h" />
 		<Unit filename="include/Lista_Circular.h" />
 		<Unit filename="include/Lista_Doble.h" />
 		<Unit filename="include/Nodo.h" />
 		<Unit filename="include/PilaZ.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/ListaSimple.cpp" />
 		<Unit filename="src/Lista_Circular.cpp" />
 		<Unit filename="src/Lista_Doble.cpp" />
 		<Unit filename="src/Nodo.cpp" />
